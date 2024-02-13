@@ -1,0 +1,60 @@
+body {
+    background-color: #0a192e;
+    color: #ccd6f6;
+  }
+
+  h1 {
+    color: white;
+    font-size: 48px;
+  }
+
+  h2 {
+    color: #64ffda;
+  }
+
+  .contact-button {
+    background: none;
+    border: 1px solid #64ffda;
+    color: #64ffda !important;
+    padding: 10px 20px;
+    border-radius: 15px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .contact-button:hover {
+    background-color: #64ffda;
+    color: #0a192e !important;
+  }
+
+  img {
+    max-width: 150px;
+  }
+
+  .social-media {
+    margin-top: 20px;
+  }
+
+  .social-media a {
+    color: white;
+    transition-duration: 0.5s;
+  }
+
+  .social-media a:hover {
+    color: #64ffda;
+  }
+
+  .social-media a i {
+    font-size: 1.5rem;
+  }
+
+  @media (min-width: 992px) {
+    h1 {
+      font-size: 80px;
+    }
+
+    img {
+        max-width: 200px;
+    }
+  }
